@@ -142,6 +142,7 @@ main {
     margin: 0 auto;
 }
 
+/* popular tour section  */
 .title {
     color: rgb(19, 19, 24);
     font-size: 40px;
@@ -180,4 +181,89 @@ main {
     margin-top: 8px;
     position: absolute;
     bottom: 0;
+}
+
+/* Destination Section design  */
+.destination {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 300px 286px 300px;
+    gap: 24px;
+}
+
+.image-collage>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+
+/* first row  */
+.image-collage .Maldives {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/maldives.png);
+    grid-column: span 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-collage .Indonesia {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/indonesia.png);
+    grid-column: span 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* second row  */
+.image-collage .Srilanka {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/srilanka.png);
+    grid-column: span 4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-collage .North-America {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/north-america.png);
+    grid-column: span 5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-collage .Kashmir {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/kashmir.png);
+    grid-column: span 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* third row  */
+.image-collage .Bangladesh {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/bangladesh.png);
+    grid-column: span 5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-collage .Bandarban {
+    background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/bandarban.png);
+    grid-column: span 7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
