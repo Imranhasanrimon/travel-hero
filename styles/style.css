@@ -26,13 +26,15 @@ header nav {
     justify-content: space-between;
 }
 
-header nav .logo {
+header nav .logo,
+footer .logo {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-header nav .logo h3 {
+header nav .logo h3,
+footer .logo h3 {
     font-size: 36px;
     font-weight: 800;
     line-height: 45px;
@@ -180,7 +182,7 @@ main {
 .popular-tour .text button {
     margin-top: 8px;
     position: absolute;
-    bottom: 0;
+    bottom: 3.75px;
 }
 
 /* Destination Section design  */
@@ -266,4 +268,23 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* main section ends here  */
+
+footer {
+    width: 1440px;
+    text-align: center;
+    margin: 100px auto;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+}
+
+footer i {
+    margin-right: 16px;
 }
