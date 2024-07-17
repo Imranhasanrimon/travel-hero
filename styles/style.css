@@ -18,6 +18,7 @@ header {
     border: 2px solid black;
 }
 
+/* navigation bar  */
 header nav {
     width: 1180px;
     margin: 50px auto;
@@ -32,8 +33,103 @@ header nav .logo {
     gap: 16px;
 }
 
+header nav .logo h3 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.span {
+    color: rgb(255, 84, 0);
+}
+
 header nav ul {
     list-style: none;
     display: flex;
     gap: 44px;
+}
+
+header nav ul li {
+    color: rgb(66, 66, 71);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+/* hero section  */
+header .hero-section {
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .container {
+    text-align: center;
+    width: 800px;
+    height: 288px;
+}
+
+.hero-section .container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.hero-section .container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.container form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    display: flex;
+    gap: 24px;
+}
+
+.container form input,
+select {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+::placeholder {
+    color: rgba(19, 19, 24, 0.5);
+}
+
+.primary-btn {
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    background: rgb(255, 84, 0);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.primary-btn i {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
 }
