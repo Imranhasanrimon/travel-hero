@@ -10,6 +10,7 @@
     /* hero section  */
     header .hero-section {
         padding: 10px;
+        align-items: start;
     }
 
     .hero-section .container h1 {
@@ -23,10 +24,19 @@
     }
 
     .container form {
-        display: grid;
         padding: 10px;
         gap: 10px;
-        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+
+    /* popular tour section  */
+    .popular-tour {
+        margin: 30px auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular-tour .title {
+        font-size: 1.75rem;
     }
 }
 
@@ -49,5 +59,22 @@
     /* hero section  */
     header .hero-section {
         padding: 10px;
+    }
+
+    header .hero-section {
+        padding: 10px;
+        align-items: start;
+    }
+
+    .container form {
+        padding: 10px;
+        gap: 10px;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+
+    /* popular tour section  */
+    .popular-tour {
+        margin: 30px auto;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
