@@ -59,8 +59,40 @@
         grid-column: span 1;
     }
 
+    /* deal section starts here  */
+    .deal .heading>.title {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+
+    .booking {
+        padding: 20px;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .booking-two {
+        margin: 20px 0;
+    }
+
+
+    .break {
+        display: block;
+    }
+
+    .card {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .card .title {
+        font-size: 1.25rem;
+        margin-bottom: -10px;
+    }
+
     /* footer section starts here  */
-    footer .hide {
+    .hide,
+    .hide-text {
         display: none;
     }
 }
@@ -122,9 +154,17 @@
         grid-column: span 4;
     }
 
+    /* deal section starts here  */
+    .booking {
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 
     /* footer section starts here  */
-    footer .hide {
+    .hide {
         display: none;
     }
 }

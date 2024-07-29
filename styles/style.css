@@ -177,7 +177,7 @@ main {
     margin-bottom: 16px;
 }
 
-.popular-tour .text button {
+button {
     margin-top: 8px;
     padding: 10px 30px;
 
@@ -272,8 +272,80 @@ main {
     background-size: cover;
 }
 
+/* deals section starts here  */
+.deal {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.deal .heading {
+    text-align: center;
+}
+
+.booking {
+    max-width: 100%;
+    height: 500px;
+    padding: 50px;
+    border-radius: 16px;
+    background-image: url(../Images/Group\ 39.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.booking-two {
+    margin: 50px 0;
+    justify-content: start;
+}
+
+.card {
+    max-width: 579px;
+    height: 389px;
+    padding: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.card .time {
+    color: rgb(90, 90, 93);
+    margin-bottom: 10px;
+
+}
+
+.card .time i {
+    color: rgb(255, 84, 0);
+    margin-right: 5px;
+}
+
+.card .time span {
+    margin-right: 20px;
+}
+
+.card .title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: rgb(255, 84, 0);
+    margin-bottom: 15px;
+}
+
+.deal .see-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
 /* main section ends here  */
 
+/* footer section starts here  */
 footer {
     max-width: 1440px;
     text-align: center;
