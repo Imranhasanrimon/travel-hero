@@ -90,6 +90,21 @@
         margin-bottom: -10px;
     }
 
+    /* video section starts here  */
+    .video {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .video .title {
+        font-size: 1.25rem;
+    }
+
+    .video .video-container iframe {
+        width: 330px;
+        height: 200px;
+    }
+
     /* footer section starts here  */
     .hide,
     .hide-text {
@@ -160,6 +175,12 @@
         justify-content: center;
         align-items: center;
 
+    }
+
+    /* video section starts here  */
+    .video {
+        flex-direction: column;
+        padding: 0 50px;
     }
 
 
