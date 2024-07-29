@@ -190,7 +190,7 @@ main {
 /* Destination Section design  */
 .destination {
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -214,7 +214,7 @@ main {
 
 
 /* first row  */
-.image-collage .Maldives {
+.Maldives {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/maldives.png);
     grid-column: span 6;
     background-position: center;
@@ -222,7 +222,7 @@ main {
     background-size: cover;
 }
 
-.image-collage .Indonesia {
+.Indonesia {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/indonesia.png);
     grid-column: span 6;
     background-position: center;
@@ -231,7 +231,7 @@ main {
 }
 
 /* second row  */
-.image-collage .Srilanka {
+.Srilanka {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/srilanka.png);
     grid-column: span 4;
     background-position: center;
@@ -239,7 +239,7 @@ main {
     background-size: cover;
 }
 
-.image-collage .North-America {
+.North-America {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/north-america.png);
     grid-column: span 5;
     background-position: center;
@@ -247,7 +247,7 @@ main {
     background-size: cover;
 }
 
-.image-collage .Kashmir {
+.Kashmir {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/kashmir.png);
     grid-column: span 3;
     background-position: center;
@@ -256,7 +256,7 @@ main {
 }
 
 /* third row  */
-.image-collage .Bangladesh {
+.Bangladesh {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/bangladesh.png);
     grid-column: span 5;
     background-position: center;
@@ -264,7 +264,7 @@ main {
     background-size: cover;
 }
 
-.image-collage .Bandarban {
+.Bandarban {
     background: linear-gradient(rgba(19, 19, 24, 0.2), rgba(19, 19, 24, 0.2)), url(../Images/bandarban.png);
     grid-column: span 7;
     background-position: center;
