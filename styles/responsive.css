@@ -1,0 +1,11 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* header style  */
+
+
+    header nav ul {
+        gap: 20px;
+        display: none;
+    }
+}
